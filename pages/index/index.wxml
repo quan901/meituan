@@ -1,0 +1,59 @@
+<!--index.wxml-->
+
+
+<view class="navi">
+    <view>全部美食</view>
+    <view>附近</view>
+    <view>智能排序</view>
+    <view>筛选</view>
+</view>
+
+
+<view class="box" wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+    <view class="mainimage">
+        <image src="{{item.image}}" class="image"></image>
+        <view class="openinghours">
+            <view class="time" wx:if="{{item.openinghours}}">
+                <image src="{{item.timelogo}}"></image>
+                <text>{{item.openinghours}}营业</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="contain">
+        <view class="flexcenter">
+            <view class="name">{{item.name}}</view>
+            <view class="honor">
+                <image src="{{item.honor}}"></image>
+                <image src="{{item.service}}"></image>
+            </view>
+        </view>
+
+        <view class="flexcenter">
+            <view class="line">
+                <view>
+                    <image class="star" src="../img/icon/star{{item.star}}.png"></image>
+                </view>
+                <view>￥{{item.price}}/人</view>
+            </view>
+            <view>{{item.distance}}</view>
+        </view>
+
+        <view>{{item.locate}} {{item.class}}</view>
+        <view class="labelview">
+            <view wx:if="{{item.label}}" wx:for="{{item.label}}" wx:for-item="labels">
+            <text class="labeltext">{{labels}}</text></view>
+        </view>
+
+        <view class="flexcenter">
+            <view><text class="cheap">惠</text>{{item.cheap}}</view>
+            <text class="cheaptap">{{item.cheaptap}}</text>
+        </view>
+
+        <view><text class="discount">券</text>{{item.discount}}</view>
+
+
+
+    </view>
+
+</view>

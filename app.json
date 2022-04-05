@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/earn/earn",
+    "pages/person/person",
+    "pages/img/img",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC300",
+    "navigationBarTitleText": "美团",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/img/icon/_home.png",
+      "selectedIconPath": "pages/img/icon/home.png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "pages/img/icon/_classify.png",
+      "selectedIconPath": "pages/img/icon/classify.png"
+    },
+    {
+      "pagePath": "pages/earn/earn",
+      "text": "赚钱",
+      "iconPath": "pages/img/icon/_earn.png",
+      "selectedIconPath": "pages/img/icon/earn.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "我的",
+      "iconPath": "pages/img/icon/_person.png",
+      "selectedIconPath": "pages/img/icon/person.png"
+    }
+  ],
+  "color": "#111111",
+  "selectedColor": "#ff9400",
+  "backgroundColor": "#F4F4F4"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

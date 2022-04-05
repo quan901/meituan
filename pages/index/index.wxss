@@ -1,0 +1,115 @@
+/**index.wxss**/
+page{
+  /* padding: 10rpx 0; */
+}
+
+.navi{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+
+
+
+.contain{
+  display: flex;
+  margin-left: 5rpx;
+  flex:1;
+}
+
+.star{
+  width: 120rpx;
+  height: 20rpx;
+}
+
+.cheaptap{
+  color: goldenrod;
+  border: 2rpx solid;
+  font-size: 28rpx;
+  padding: 5rpx;
+}
+
+.box{
+  display: flex;
+  margin: 30rpx 10rpx;
+  line-height: 50rpx;
+}
+
+.mainimage{
+  width: 21%;
+
+}
+.mainimage image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.honor image,.service image{
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.contain{
+  display: flex;
+  width: 78%;
+  flex-direction: column;
+  font-size: 25rpx;
+}
+
+.flexcenter{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labeltext{
+  color: red;
+  border: 2rpx solid red;
+  padding: 5rpx;
+  margin:3rpx;
+}
+
+.labelview{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name{
+  font-size: 32rpx;
+}
+
+.cheap{
+  font-weight: bold;
+  color: white;
+  padding: 3rpx;
+  background: red;
+}
+
+.discount{
+  font-weight: bold;
+  color: white;
+  padding: 3rpx;
+  background: green;
+}
+
+.openinghours{
+  text-align: center;
+}
+
+.time text{
+  font-size: 20rpx;
+}
+
+.time image{
+  width: 18rpx;
+  height: 18rpx;
+}
+
+.line{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
